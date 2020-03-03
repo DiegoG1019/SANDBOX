@@ -1,0 +1,35 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+19
+'Ingrese su Nombre'
+5
+1
+6
+nombre
+4
+1
+30
+'Ingrese sus horas trabajadas'
+5
+1
+5
+horas
+4
+1
+31
+'ingrese el valor de sus horas'
+5
+1
+7
+salario
+4
+1
+58
+'El salario neto de ',nombre,' es: ',((horas*salario)*0.9)
+1
