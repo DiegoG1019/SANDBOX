@@ -74,7 +74,7 @@ function love.update()
   for k,v in pairs(player.control) do --for Key, Value in Pairs(table) "name" would be a key for "Jal" within player
     for i,v1 in ipairs(v) do --We loop through the tables so that we can have more than one defined key for one single action
       if(love.keyboard.isDown(v1)) then
-        local newx, newy = player.move[k]() -- there is no key called "v1", instead, we use [] so that the VALUE within v1 is returned, and used as a key. player.move.v1 would be the same as player["move"]["v1"], but player.move[v1] (assuming v1 is "up") is the same as player.move["up"]
+        local newx, newy = player.move[k]() -- there is no key called "k", instead, we use [] so that the VALUE within k is returned, and used as a key. player.move.k would be the same as player["move"]["k"], but player.move[k] (assuming k is "up") is the same as player.move["up"]
         if map[newy][newx] == 0 then -- If it's a valid position, we apply the change
           player.pos.x = newx
           player.pos.y = newy
