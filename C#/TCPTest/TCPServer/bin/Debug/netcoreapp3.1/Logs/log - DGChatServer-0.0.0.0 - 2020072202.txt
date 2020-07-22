@@ -1,0 +1,226 @@
+2020-07-22 02:44:49.837 -04:00 [DBG] Succesfully started logger with a mimum level of Verbose
+2020-07-22 02:44:50.369 -04:00 [INF] Program Author: Diego Garcia
+2020-07-22 02:44:50.386 -04:00 [INF] Running DGChat - Server version: DGChatServer-0.0.0.0
+2020-07-22 02:44:50.387 -04:00 [INF] DataOut Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\DGChatServer
+2020-07-22 02:44:50.388 -04:00 [INF] Logging Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\Logs
+2020-07-22 02:44:50.389 -04:00 [INF] Temp Directory: C:\Users\Barbara Patricia\AppData\Local\Temp\
+2020-07-22 02:44:50.389 -04:00 [INF] Working Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1
+2020-07-22 02:44:50.540 -04:00 [DBG] Started the Main Listener
+2020-07-22 02:44:50.541 -04:00 [DBG] Starting ThConnections Thread
+2020-07-22 02:44:50.547 -04:00 [DBG] Thread ThConnections started
+2020-07-22 02:44:50.595 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:50.596 -04:00 [DBG] Starting ThReception Thread
+2020-07-22 02:44:50.603 -04:00 [DBG] Thread ThReception started
+2020-07-22 02:44:50.610 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:50.610 -04:00 [INF] Finished the Initialization of the Application
+2020-07-22 02:44:50.612 -04:00 [INF] The server is running at Address 192.168.1.69:1 with Endpoint: 192.168.1.69:1
+2020-07-22 02:44:50.699 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:50.712 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:50.800 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:50.814 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:50.902 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:50.915 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:51.005 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:51.017 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:51.116 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:51.121 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:51.218 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:51.224 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:51.321 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:51.325 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:51.423 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:51.426 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:51.524 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:51.527 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:51.626 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:51.628 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:51.728 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:51.729 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:51.830 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:51.831 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:51.932 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:51.934 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:52.034 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:52.037 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:52.180 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:52.180 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:52.607 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:52.607 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:52.794 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:52.794 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:53.268 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:53.275 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:53.371 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:53.377 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:53.485 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:53.487 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:53.696 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:53.696 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:53.798 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:53.800 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:53.916 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:53.916 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:54.049 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:54.049 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:54.152 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:54.153 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:54.259 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:54.260 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:54.361 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:54.364 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:54.463 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:54.466 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:54.565 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:54.570 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:54.671 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:54.673 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:54.772 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:54.775 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:54.874 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:54.876 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:54.976 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:54.979 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:55.080 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:55.082 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:55.181 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:55.184 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:44:55.282 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:44:55.285 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:45:03.106 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:45:03.107 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:45:03.208 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:45:03.209 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:45:03.310 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:45:03.311 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:45:03.411 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:45:03.412 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:45:03.512 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:45:03.513 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:45:03.613 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:45:03.614 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:45:03.714 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:45:03.716 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:45:03.818 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:45:03.819 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:45:03.920 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:45:03.922 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:45:04.021 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:45:04.024 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:45:04.123 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:45:04.125 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:45:04.224 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:45:04.226 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:45:04.326 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:45:04.328 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:45:04.427 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:45:04.429 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:45:04.528 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:45:04.530 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:45:04.630 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:45:04.631 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:45:04.731 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:45:04.732 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:45:04.833 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:45:04.835 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:45:16.021 -04:00 [DBG] Succesfully started logger with a mimum level of Verbose
+2020-07-22 02:45:17.335 -04:00 [INF] Program Author: Diego Garcia
+2020-07-22 02:45:17.356 -04:00 [INF] Running DGChat - Server version: DGChatServer-0.0.0.0
+2020-07-22 02:45:17.361 -04:00 [INF] DataOut Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\DGChatServer
+2020-07-22 02:45:17.371 -04:00 [INF] Logging Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\Logs
+2020-07-22 02:45:17.384 -04:00 [INF] Temp Directory: C:\Users\Barbara Patricia\AppData\Local\Temp\
+2020-07-22 02:45:17.385 -04:00 [INF] Working Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1
+2020-07-22 02:45:17.507 -04:00 [DBG] Started the Main Listener
+2020-07-22 02:45:17.533 -04:00 [DBG] Starting ThConnections Thread
+2020-07-22 02:45:17.562 -04:00 [DBG] Thread ThConnections started
+2020-07-22 02:45:17.585 -04:00 [DBG] Starting ThReception Thread
+2020-07-22 02:45:17.596 -04:00 [DBG] Thread ThReception started
+2020-07-22 02:45:17.599 -04:00 [INF] Finished the Initialization of the Application
+2020-07-22 02:45:17.602 -04:00 [INF] The server is running at Address 192.168.1.69:1 with Endpoint: 192.168.1.69:1
+2020-07-22 02:51:56.648 -04:00 [DBG] Succesfully started logger with a mimum level of Verbose
+2020-07-22 02:51:56.918 -04:00 [INF] Program Author: Diego Garcia
+2020-07-22 02:51:56.935 -04:00 [INF] Running DGChat - Server version: DGChatServer-0.0.0.0
+2020-07-22 02:51:56.950 -04:00 [INF] DataOut Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\DGChatServer
+2020-07-22 02:51:56.951 -04:00 [INF] Logging Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\Logs
+2020-07-22 02:51:56.963 -04:00 [INF] Temp Directory: C:\Users\Barbara Patricia\AppData\Local\Temp\
+2020-07-22 02:51:56.965 -04:00 [INF] Working Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1
+2020-07-22 02:51:57.077 -04:00 [DBG] Started the Main Listener
+2020-07-22 02:51:57.078 -04:00 [DBG] Starting ThConnections Thread
+2020-07-22 02:51:57.079 -04:00 [DBG] Thread ThConnections started
+2020-07-22 02:51:57.114 -04:00 [DBG] Starting ThReception Thread
+2020-07-22 02:51:57.149 -04:00 [DBG] Thread ThReception started
+2020-07-22 02:51:57.152 -04:00 [INF] Finished the Initialization of the Application
+2020-07-22 02:51:57.154 -04:00 [INF] The server is running at Address 192.168.1.69:1 with Endpoint: 192.168.1.69:1
+2020-07-22 02:52:52.181 -04:00 [DBG] Succesfully started logger with a mimum level of Debug
+2020-07-22 02:52:52.694 -04:00 [INF] Program Author: Diego Garcia
+2020-07-22 02:52:52.702 -04:00 [INF] Running DGChat - Server version: DGChatServer-0.0.0.0
+2020-07-22 02:52:52.718 -04:00 [INF] DataOut Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\DGChatServer
+2020-07-22 02:52:52.726 -04:00 [INF] Logging Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\Logs
+2020-07-22 02:52:52.727 -04:00 [INF] Temp Directory: C:\Users\Barbara Patricia\AppData\Local\Temp\
+2020-07-22 02:52:52.727 -04:00 [INF] Working Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1
+2020-07-22 02:52:53.104 -04:00 [DBG] Started the Main Listener
+2020-07-22 02:52:53.105 -04:00 [DBG] Starting ThConnections Thread
+2020-07-22 02:52:53.134 -04:00 [DBG] Thread ThConnections started
+2020-07-22 02:52:53.698 -04:00 [DBG] Starting ThReception Thread
+2020-07-22 02:52:53.770 -04:00 [DBG] Thread ThReception started
+2020-07-22 02:52:53.814 -04:00 [INF] Finished the Initialization of the Application
+2020-07-22 02:52:53.836 -04:00 [INF] The server is running at Address 192.168.1.69:1 with Endpoint: 192.168.1.69:1
+2020-07-22 02:53:09.355 -04:00 [DBG] Succesfully started logger with a mimum level of Verbose
+2020-07-22 02:53:09.637 -04:00 [INF] Program Author: Diego Garcia
+2020-07-22 02:53:09.656 -04:00 [INF] Running DGChat - Server version: DGChatServer-0.0.0.0
+2020-07-22 02:53:09.660 -04:00 [INF] DataOut Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\DGChatServer
+2020-07-22 02:53:09.662 -04:00 [INF] Logging Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\Logs
+2020-07-22 02:53:09.673 -04:00 [INF] Temp Directory: C:\Users\Barbara Patricia\AppData\Local\Temp\
+2020-07-22 02:53:09.677 -04:00 [INF] Working Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1
+2020-07-22 02:53:09.909 -04:00 [DBG] Started the Main Listener
+2020-07-22 02:53:09.978 -04:00 [DBG] Starting ThConnections Thread
+2020-07-22 02:53:10.079 -04:00 [DBG] Thread ThConnections started
+2020-07-22 02:53:10.106 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:53:10.145 -04:00 [DBG] Starting ThReception Thread
+2020-07-22 02:53:10.151 -04:00 [DBG] Thread ThReception started
+2020-07-22 02:53:10.160 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:53:10.161 -04:00 [INF] Finished the Initialization of the Application
+2020-07-22 02:53:10.163 -04:00 [INF] The server is running at Address 192.168.1.69:1 with Endpoint: 192.168.1.69:1
+2020-07-22 02:53:10.254 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:53:10.262 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:53:10.372 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:53:10.372 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:53:10.526 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:53:10.527 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:53:10.657 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:53:10.657 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:53:10.822 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:53:10.822 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:53:10.933 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:53:10.935 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:53:11.075 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:53:11.075 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:53:11.182 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:53:11.182 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:53:11.286 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:53:11.288 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:53:11.394 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:53:11.418 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:53:11.613 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:53:11.614 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:53:11.739 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:53:11.755 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:53:11.927 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:53:11.929 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:53:12.031 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:53:12.032 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:53:12.134 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:53:12.137 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:53:12.236 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:53:12.239 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:53:12.338 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:53:12.344 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:53:12.439 -04:00 [VRB] Setting Thread ThReception to sleep
+2020-07-22 02:53:12.445 -04:00 [VRB] Setting Thread ThConnections to sleep
+2020-07-22 02:53:22.553 -04:00 [INF] Program Author: Diego Garcia
+2020-07-22 02:53:22.859 -04:00 [INF] Running DGChat - Server version: DGChatServer-0.0.0.0
+2020-07-22 02:53:22.863 -04:00 [INF] DataOut Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\DGChatServer
+2020-07-22 02:53:22.865 -04:00 [INF] Logging Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\Logs
+2020-07-22 02:53:22.869 -04:00 [INF] Temp Directory: C:\Users\Barbara Patricia\AppData\Local\Temp\
+2020-07-22 02:53:22.869 -04:00 [INF] Working Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1
+2020-07-22 02:53:22.998 -04:00 [INF] Finished the Initialization of the Application
+2020-07-22 02:53:23.077 -04:00 [INF] The server is running at Address 192.168.1.69:1 with Endpoint: 192.168.1.69:1

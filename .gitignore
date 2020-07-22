@@ -2,3 +2,5 @@
 .~lock*
 *.vscode
 .vscode
+C#/TCPTest/TCPClient/obj/
+C#/TCPTest/TCPServer/obj/
