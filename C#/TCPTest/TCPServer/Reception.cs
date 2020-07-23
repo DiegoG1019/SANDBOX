@@ -11,8 +11,8 @@ namespace TCPTest.TCPServer
 {
     public static class Reception
     {
-        public static ConcurrentBag<Message> ReceivedMessages = new ConcurrentBag<Message>();
-        public static event ServerMessage NewChatMessage;
+        public static ConcurrentDictionary<int, Message> ReceivedMessages = new ConcurrentDictionary<int, Message>();
+        public static event ServerMessage NewMessage;
 
         public static void ReceiveMessage()
         {
@@ -30,7 +30,9 @@ namespace TCPTest.TCPServer
                         if (socketError == SocketError.Success)
                         {
                             var newmsg = Message.Deserialize(msgbuffer);
-                            ReceivedMessages.Add(newmsg);
+                            ReceivedMessages.TryAdd(ReceivedMessages.Count, newmsg);
+                            newmsg.MsgID = ReceivedMessages.Count;
+                            NewMessage(newmsg);
                             continue;
                         }
                         if (socketError != SocketError.TimedOut)

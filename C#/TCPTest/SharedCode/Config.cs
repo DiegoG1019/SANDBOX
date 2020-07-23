@@ -12,6 +12,9 @@ namespace TCPTest.TCPShared
         public const int SocketReceiveTimeout = SocketSendTimeout;
         public const int UsernameMaxLenght = 20;
         public const int MainThreadSleepTime = 100;
-        public static readonly string[] BannedNames = { "", "Server", "SERVER" };
+        public static readonly string[] BannedNames = { "", "Server", "SERVER", "@All" };
+        public static readonly char[] BannedCharacters = {
+            '@', '{', '}', '[', ']', '$', '%', '^', '&', '/', '\\', '!', '#', '*', '(', ')', '"', '?', '+', '=', '-','|','\'','>','<','`','~'
+        };
     }
 }

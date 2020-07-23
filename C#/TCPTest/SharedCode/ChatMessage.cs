@@ -20,17 +20,15 @@ namespace TCPTest.TCPShared
                 rtxt = value;
             }
         }
-        public string Sender { get; protected set; }
         public bool IsEdited { get; protected set; }
         public DateTime LastEdit { get; protected set; }
         public DateTime SentTime { get; protected set; }
         public DateTime ReceivedTime { get; set; }
 
 
-        public ChatMessage(Version clientversion, string msg, string sender) : base(clientversion, typeof(ChatMessage))
+        public ChatMessage(Version clientversion, string msg, string sender) : base(clientversion, typeof(ChatMessage), sender)
         {
             rtxt = msg;
-            Sender = sender;
             IsEdited = false;
             SentTime = DateTime.Now;
             LastEdit = DateTime.Now;

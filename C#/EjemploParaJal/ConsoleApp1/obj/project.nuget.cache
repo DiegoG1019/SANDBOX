@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vFSCetHLK+tFcpTJu9wa/2cNyqV7g6khK9tbout/SmjSfSNUHjsatmqVUWw5pqAlbyKfRVUV8Uy7lZvX/5hldg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Barbara Patricia\\Documents\\Workspace\\Programming\\SANDBOX\\C#\\EjemploParaJal\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Barbara Patricia\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

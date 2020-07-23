@@ -153,6 +153,9 @@ namespace TCPTest.TCPServer
             Log.Debug($"Thread {thRname} started");
             //
 
+            Log.Debug("Registering Transmission.Reception_NewMessage to NewMessage event");
+            Reception.NewMessage += Transmission.Reception_NewMessage;
+
             Log.Information("Finished the Initialization of the Application");
 
             /*-----------------------------------------Running-----------------------------------------*/

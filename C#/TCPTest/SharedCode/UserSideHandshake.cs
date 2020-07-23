@@ -6,10 +6,9 @@ namespace TCPTest.TCPShared
     {
         public string Username { get; private set; }
 
-        public UserSideHandshake(Version clientversion, string user) : base(clientversion, typeof(UserSideHandshake))
+        public UserSideHandshake(Version clientversion, string user) : base(clientversion, typeof(UserSideHandshake), user)
         {
             Username = user;
         }
-
     }
 }
