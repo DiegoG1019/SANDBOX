@@ -25,7 +25,7 @@ namespace TCPTest.TCPShared
         }
 
         private static readonly BinaryFormatter Formatter = new BinaryFormatter();
-        public Stream Serialize()
+        public MemoryStream Serialize()
         {
             var stream = new MemoryStream();
             Formatter.Serialize(stream, this);

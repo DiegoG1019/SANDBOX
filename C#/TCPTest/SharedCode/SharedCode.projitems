@@ -10,9 +10,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)ChatMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Confirmation.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ServerSideHandshake.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Slot.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)UserSideHandshake.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Message.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities.cs" />
     <Compile Include="..\SharedCode\Config.cs" />
   </ItemGroup>
 </Project>

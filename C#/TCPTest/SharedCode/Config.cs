@@ -8,6 +8,7 @@ namespace TCPTest.TCPShared
         public const int Port = 1;
         public const int MessageBufferSize = 500;
         public const int HandshakeBufferSize = 500;
+        public const int ConfirmationBufferSize = 200;
         public const int SocketSendTimeout = 500;
         public const int SocketReceiveTimeout = SocketSendTimeout;
         public const int UsernameMaxLenght = 20;
