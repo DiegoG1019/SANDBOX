@@ -28,7 +28,7 @@ namespace TCPTest.TCPClient
             const int MaxAttempts = 3;
             int attempts = 0;
             var recipient = MessageRecipients.Take();
-            var recsocket = Connections.Active[recipient.Recipient];
+            //var recsocket = Connections.Active[recipient.Recipient];
             var msg = recipient.Message.Serialize().ToArray();
             byte[] confirmationarray = new byte[Config.ConfirmationBufferSize];
 

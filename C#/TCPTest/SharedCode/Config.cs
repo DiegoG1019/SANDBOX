@@ -19,6 +19,7 @@ namespace TCPTest.TCPShared
         public const int MainThreadSleepTime = 100;
         public const int ThReceptionSleepTime = 100;
         public const int ThConnectionsSleepTime = 100;
+        public const int EmptyTransmissionQueueSleepTime = 500;
 
         public const string RecipientServer = "Server";
         public const string RecipientEveryone = "@All";

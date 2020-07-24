@@ -6,7 +6,7 @@ namespace TCPTest.TCPShared
     {
         public string Servername { get; private set; }
 
-        public ServerSideHandshake(Version serverver, string servername) : base(serverver, typeof(ServerSideHandshake), Recipient_Server)
+        public ServerSideHandshake(Version serverver, string servername) : base(serverver, typeof(ServerSideHandshake), Config.RecipientServer)
         {
             Servername = servername;
         }

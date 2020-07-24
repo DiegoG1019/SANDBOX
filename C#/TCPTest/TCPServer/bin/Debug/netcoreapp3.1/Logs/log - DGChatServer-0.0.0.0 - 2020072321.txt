@@ -1,0 +1,74 @@
+2020-07-23 21:17:50.025 -04:00 [DBG] Succesfully started logger with a mimum level of Debug
+2020-07-23 21:17:50.856 -04:00 [INF] Program Author: Diego Garcia
+2020-07-23 21:17:50.883 -04:00 [INF] Running DGChat - Server version: DGChatServer-0.0.0.0
+2020-07-23 21:17:50.885 -04:00 [INF] DataOut Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\DGChatServer
+2020-07-23 21:17:50.890 -04:00 [INF] Logging Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\Logs
+2020-07-23 21:17:50.892 -04:00 [INF] Temp Directory: C:\Users\Barbara Patricia\AppData\Local\Temp\
+2020-07-23 21:17:50.893 -04:00 [INF] Working Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1
+2020-07-23 21:17:51.150 -04:00 [DBG] Started the Main Listener
+2020-07-23 21:17:51.152 -04:00 [DBG] Starting ThConnections Thread
+2020-07-23 21:17:51.173 -04:00 [DBG] Thread ThConnections started
+2020-07-23 21:17:51.175 -04:00 [DBG] Starting ThReception Thread
+2020-07-23 21:17:51.176 -04:00 [DBG] Thread ThReception started
+2020-07-23 21:17:51.177 -04:00 [DBG] Starting ThTransmission Thread
+2020-07-23 21:17:51.178 -04:00 [DBG] Thread ThTransmission started
+2020-07-23 21:17:51.179 -04:00 [DBG] Registering Transmission.Reception_NewMessage to NewMessage event
+2020-07-23 21:17:51.235 -04:00 [INF] Finished the Initialization of the Application
+2020-07-23 21:17:51.238 -04:00 [INF] The server is running at Address 192.168.1.69:1 with Endpoint: 192.168.1.69:1
+2020-07-23 21:19:33.781 -04:00 [DBG] Succesfully started logger with a mimum level of Debug
+2020-07-23 21:19:34.158 -04:00 [INF] Program Author: Diego Garcia
+2020-07-23 21:19:34.321 -04:00 [INF] Running DGChat - Server version: DGChatServer-0.0.0.0
+2020-07-23 21:19:34.325 -04:00 [INF] DataOut Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\DGChatServer
+2020-07-23 21:19:34.332 -04:00 [INF] Logging Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\Logs
+2020-07-23 21:19:34.349 -04:00 [INF] Temp Directory: C:\Users\Barbara Patricia\AppData\Local\Temp\
+2020-07-23 21:19:34.351 -04:00 [INF] Working Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1
+2020-07-23 21:19:34.634 -04:00 [DBG] Started the Main Listener
+2020-07-23 21:19:34.639 -04:00 [DBG] Starting ThConnections Thread
+2020-07-23 21:19:34.644 -04:00 [DBG] Thread ThConnections started
+2020-07-23 21:19:34.682 -04:00 [DBG] Starting ThReception Thread
+2020-07-23 21:19:34.683 -04:00 [DBG] Thread ThReception started
+2020-07-23 21:19:34.695 -04:00 [DBG] Starting ThTransmission Thread
+2020-07-23 21:19:34.696 -04:00 [DBG] Thread ThTransmission started
+2020-07-23 21:19:34.707 -04:00 [DBG] Registering Transmission.Reception_NewMessage to NewMessage event
+2020-07-23 21:19:34.711 -04:00 [INF] Finished the Initialization of the Application
+2020-07-23 21:19:34.715 -04:00 [INF] The server is running at Address 192.168.1.69:1 with Endpoint: 192.168.1.69:1
+2020-07-23 21:19:35.420 -04:00 [ERR] Exception thrown: System.InvalidOperationException: Pene
+   at TCPTest.TCPServer.ServerProgram.Main() in C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\ServerProgram.cs:line 173
+2020-07-23 21:20:13.202 -04:00 [DBG] Succesfully started logger with a mimum level of Debug
+2020-07-23 21:20:13.599 -04:00 [INF] Program Author: Diego Garcia
+2020-07-23 21:20:13.621 -04:00 [INF] Running DGChat - Server version: DGChatServer-0.0.0.0
+2020-07-23 21:20:13.625 -04:00 [INF] DataOut Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\DGChatServer
+2020-07-23 21:20:13.627 -04:00 [INF] Logging Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\Logs
+2020-07-23 21:20:13.635 -04:00 [INF] Temp Directory: C:\Users\Barbara Patricia\AppData\Local\Temp\
+2020-07-23 21:20:13.637 -04:00 [INF] Working Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1
+2020-07-23 21:20:13.803 -04:00 [DBG] Started the Main Listener
+2020-07-23 21:20:13.901 -04:00 [DBG] Starting ThConnections Thread
+2020-07-23 21:20:13.907 -04:00 [DBG] Thread ThConnections started
+2020-07-23 21:20:13.967 -04:00 [DBG] Starting ThReception Thread
+2020-07-23 21:20:13.981 -04:00 [DBG] Thread ThReception started
+2020-07-23 21:20:14.005 -04:00 [DBG] Starting ThTransmission Thread
+2020-07-23 21:20:14.006 -04:00 [DBG] Thread ThTransmission started
+2020-07-23 21:20:14.013 -04:00 [DBG] Registering Transmission.Reception_NewMessage to NewMessage event
+2020-07-23 21:20:14.016 -04:00 [INF] Finished the Initialization of the Application
+2020-07-23 21:20:14.018 -04:00 [INF] The server is running at Address 192.168.1.69:1 with Endpoint: 192.168.1.69:1
+2020-07-23 21:20:14.123 -04:00 [ERR] Exception thrown: System.InvalidOperationException: Pene
+   at TCPTest.TCPServer.ServerProgram.Main() in C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\ServerProgram.cs:line 173 --    at TCPTest.TCPServer.ServerProgram.Main() in C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\ServerProgram.cs:line 173
+2020-07-23 21:20:40.986 -04:00 [DBG] Succesfully started logger with a mimum level of Debug
+2020-07-23 21:20:41.503 -04:00 [INF] Program Author: Diego Garcia
+2020-07-23 21:20:41.557 -04:00 [INF] Running DGChat - Server version: DGChatServer-0.0.0.0
+2020-07-23 21:20:41.560 -04:00 [INF] DataOut Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\DGChatServer
+2020-07-23 21:20:41.563 -04:00 [INF] Logging Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\Logs
+2020-07-23 21:20:41.566 -04:00 [INF] Temp Directory: C:\Users\Barbara Patricia\AppData\Local\Temp\
+2020-07-23 21:20:41.568 -04:00 [INF] Working Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1
+2020-07-23 21:20:41.740 -04:00 [DBG] Started the Main Listener
+2020-07-23 21:20:41.745 -04:00 [DBG] Starting ThConnections Thread
+2020-07-23 21:20:41.747 -04:00 [DBG] Thread ThConnections started
+2020-07-23 21:20:41.760 -04:00 [DBG] Starting ThReception Thread
+2020-07-23 21:20:41.789 -04:00 [DBG] Thread ThReception started
+2020-07-23 21:20:41.808 -04:00 [DBG] Starting ThTransmission Thread
+2020-07-23 21:20:41.822 -04:00 [DBG] Thread ThTransmission started
+2020-07-23 21:20:41.885 -04:00 [DBG] Registering Transmission.Reception_NewMessage to NewMessage event
+2020-07-23 21:20:41.889 -04:00 [INF] Finished the Initialization of the Application
+2020-07-23 21:20:41.891 -04:00 [INF] The server is running at Address 192.168.1.69:1 with Endpoint: 192.168.1.69:1
+2020-07-23 21:20:42.042 -04:00 [ERR] Exception thrown: System.InvalidOperationException: Pene
+   at TCPTest.TCPServer.ServerProgram.Main() in C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\ServerProgram.cs:line 173

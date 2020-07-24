@@ -47,6 +47,11 @@ namespace TCPTest.TCPServer
             while (true)
             {
                 Thread.Sleep(Config.MainThreadSleepTime);
+                if(TransmissionQueue.Count <= 0)
+                {
+                    Thread.Sleep(Config.EmptyTransmissionQueueSleepTime);
+                    continue;
+                }
                 var msg = TransmissionQueue.Dequeue();
                 foreach (string recipient in msg.Recipients)
                 {

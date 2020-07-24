@@ -165,17 +165,16 @@ namespace TCPTest.TCPServer
 
             /*-----------------------------------------Running-----------------------------------------*/
 
-#if !DEBUG
+#if DEBUG
             try
             {
 #endif
-            Log.Information($"The server is running at Address {Config.Address}:{Config.Port} with Endpoint: {MainListener.LocalEndpoint}");
-
-#if !DEBUG
+                Log.Information($"The server is running at Address {Config.Address}:{Config.Port} with Endpoint: {MainListener.LocalEndpoint}");
+#if DEBUG 
             }
             catch (Exception e)
             {
-                Console.WriteLine("Error: " + e.StackTrace);
+                Log.Error($"Exception thrown: {e}");
             }
 #endif
         }
