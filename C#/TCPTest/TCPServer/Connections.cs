@@ -3,7 +3,7 @@ using System.Collections.Concurrent;
 using System.Net.Sockets;
 using System.Threading;
 using TCPTest.TCPShared;
-using static TCPTest.TCPServer.Program;
+using static TCPTest.TCPServer.ServerProgram;
 
 namespace TCPTest.TCPServer
 {
@@ -25,7 +25,7 @@ namespace TCPTest.TCPServer
             while (true && Active.Count < MaxUsers)
             {
                 Log.Verbose($"Setting Thread {Thread.CurrentThread.Name} to sleep");
-                Thread.Sleep(ThConnectionsSleepTime);
+                Thread.Sleep(Config.ThConnectionsSleepTime);
 
                 if (Serverflags.Get(Flags.AcceptNewConnections))
                 {

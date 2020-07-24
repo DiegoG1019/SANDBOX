@@ -4,14 +4,13 @@ using System;
 using System.IO;
 using System.Net.Sockets;
 using System.Runtime.InteropServices;
-using System.Text;
 using System.Threading;
 using TCPTest.TCPShared;
 using Version = DiegoG.Utilities.Version;
 
 namespace TCPTest.TCPServer
 {
-    public static class Program
+    public static class ServerProgram
     {
         [DllImport("kernel32.dll", SetLastError = true)]
         [return: MarshalAs(UnmanagedType.Bool)]
@@ -23,9 +22,6 @@ namespace TCPTest.TCPServer
         public const string Appname = "DGChat - Server";
         public const string ShortAppname = "DGChatServer";
         public const string CopyrightNotice = "Copyright © 2020 Diego Garcia";
-
-        public const int ThConnectionsSleepTime = 100;
-        public const int ThReceptionSleepTime = 100;
 
         public static Thread ThConnections;
         public static Thread ThReception;
@@ -152,6 +148,15 @@ namespace TCPTest.TCPServer
             ThReception.Start();
             Log.Debug($"Thread {thRname} started");
             //
+            var thSname = "ThTransmission";
+            Log.Debug($"Starting {thSname} Thread");
+            ThReception = new Thread(new ThreadStart(Transmission.SendMessages))
+            {
+                Name = thSname
+            };
+            ThReception.Start();
+            Log.Debug($"Thread {thSname} started");
+            //
 
             Log.Debug("Registering Transmission.Reception_NewMessage to NewMessage event");
             Reception.NewMessage += Transmission.Reception_NewMessage;
@@ -164,8 +169,8 @@ namespace TCPTest.TCPServer
             try
             {
 #endif
-                Log.Information($"The server is running at Address {Config.Address}:{Config.Port} with Endpoint: {MainListener.LocalEndpoint}");
-                
+            Log.Information($"The server is running at Address {Config.Address}:{Config.Port} with Endpoint: {MainListener.LocalEndpoint}");
+
 #if !DEBUG
             }
             catch (Exception e)

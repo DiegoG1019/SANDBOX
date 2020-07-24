@@ -1,5 +1,4 @@
-﻿using DiegoG.Utilities;
-using System;
+﻿using System;
 using Version = DiegoG.Utilities.Version;
 
 namespace TCPTest.TCPShared

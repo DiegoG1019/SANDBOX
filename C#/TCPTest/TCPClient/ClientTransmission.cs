@@ -2,9 +2,9 @@
 using System.Threading;
 using TCPTest.TCPShared;
 
-namespace TCPTest.TCPServer
+namespace TCPTest.TCPClient
 {
-    public static class Transmission
+    public static class ClientTransmission
     {
 
         private class SendMessage
@@ -59,15 +59,6 @@ namespace TCPTest.TCPServer
 
         public static void Reception_NewMessage(Message msg)
         {
-            if (msg.Recipients.Contains(Config.RecipientEveryone))
-            {
-                var nl = new List<string>();
-                foreach(string r in Connections.Active.Keys)
-                {
-                    nl.Add(r);
-                }
-                msg.Recipients = nl;
-            }
             TransmissionQueue.Enqueue(msg);
         }
     }

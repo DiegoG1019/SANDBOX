@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Net.Sockets;
 using System.Threading;
 using TCPTest.TCPShared;
-using static TCPTest.TCPServer.Program;
+using static TCPTest.TCPServer.ServerProgram;
 
 namespace TCPTest.TCPServer
 {
@@ -19,7 +19,7 @@ namespace TCPTest.TCPServer
             while (true)
             {
                 Log.Verbose($"Setting Thread {Thread.CurrentThread.Name} to sleep");
-                Thread.Sleep(ThReceptionSleepTime);
+                Thread.Sleep(Config.ThReceptionSleepTime);
 
                 var msgbuffer = new byte[Config.MessageBufferSize];
                 if (Serverflags.Get(Flags.AcceptIncomingMessages))

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TCPTest.TCPShared
+﻿namespace TCPTest.TCPShared
 {
     public class Slot<T> where T : class
     {

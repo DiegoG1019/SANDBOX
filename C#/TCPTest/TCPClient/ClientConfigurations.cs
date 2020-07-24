@@ -3,7 +3,7 @@
 
 using Serilog;
 
-namespace TCPTest.TCPServer
+namespace TCPTest.TCPClient
 {
     public static class Configurations
     {

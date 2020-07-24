@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text;
+﻿using System.IO;
 
 namespace TCPTest.TCPShared
 {
@@ -10,10 +7,10 @@ namespace TCPTest.TCPShared
         public static byte[] StreamToByteArray(Stream input)
         {
             byte[] bytes = new byte[input.Length];
-            using(MemoryStream newstream = new MemoryStream())
+            using (MemoryStream newstream = new MemoryStream())
             {
                 int count;
-                while((count = input.Read(bytes, 0, bytes.Length)) > 0)
+                while ((count = input.Read(bytes, 0, bytes.Length)) > 0)
                 {
                     newstream.Write(bytes, 0, count);
                 }
