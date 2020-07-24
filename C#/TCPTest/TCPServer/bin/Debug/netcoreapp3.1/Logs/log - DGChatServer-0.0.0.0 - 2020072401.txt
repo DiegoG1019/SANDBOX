@@ -1,0 +1,34 @@
+2020-07-24 01:50:48.996 -04:00 [DBG] Succesfully started logger with a mimum level of Debug
+2020-07-24 01:50:49.185 -04:00 [INF] Program Author: Diego Garcia
+2020-07-24 01:50:49.189 -04:00 [INF] Running DGChat - Server version: DGChatServer-0.0.0.0
+2020-07-24 01:50:49.190 -04:00 [INF] DataOut Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\DGChatServer
+2020-07-24 01:50:49.191 -04:00 [INF] Logging Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\Logs
+2020-07-24 01:50:49.202 -04:00 [INF] Temp Directory: C:\Users\Barbara Patricia\AppData\Local\Temp\
+2020-07-24 01:50:49.204 -04:00 [INF] Working Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1
+2020-07-24 01:50:49.283 -04:00 [DBG] Started the Main Listener
+2020-07-24 01:50:49.285 -04:00 [DBG] Starting ThConnections Thread
+2020-07-24 01:50:49.292 -04:00 [DBG] Thread ThConnections started
+2020-07-24 01:50:49.306 -04:00 [DBG] Starting ThReception Thread
+2020-07-24 01:50:49.308 -04:00 [DBG] Thread ThReception started
+2020-07-24 01:50:49.318 -04:00 [DBG] Starting ThTransmission Thread
+2020-07-24 01:50:49.320 -04:00 [DBG] Thread ThTransmission started
+2020-07-24 01:50:49.327 -04:00 [DBG] Registering Transmission.Reception_NewMessage to NewMessage event
+2020-07-24 01:50:49.355 -04:00 [INF] Finished the Initialization of the Application
+2020-07-24 01:50:49.360 -04:00 [INF] The server is running at Address 192.168.1.69:1 with Endpoint: 192.168.1.69:1
+2020-07-24 01:53:55.454 -04:00 [DBG] Succesfully started logger with a mimum level of Debug
+2020-07-24 01:53:55.535 -04:00 [INF] Program Author: Diego Garcia
+2020-07-24 01:53:55.539 -04:00 [INF] Running DGChat - Server version: DGChatServer-0.0.0.0
+2020-07-24 01:53:55.540 -04:00 [INF] DataOut Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\DGChatServer
+2020-07-24 01:53:55.541 -04:00 [INF] Logging Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1\Logs
+2020-07-24 01:53:55.542 -04:00 [INF] Temp Directory: C:\Users\Barbara Patricia\AppData\Local\Temp\
+2020-07-24 01:53:55.543 -04:00 [INF] Working Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPServer\bin\Debug\netcoreapp3.1
+2020-07-24 01:53:55.568 -04:00 [DBG] Started the Main Listener
+2020-07-24 01:53:55.569 -04:00 [DBG] Starting ThConnections Thread
+2020-07-24 01:53:55.571 -04:00 [DBG] Thread ThConnections started
+2020-07-24 01:53:55.572 -04:00 [DBG] Starting ThReception Thread
+2020-07-24 01:53:55.574 -04:00 [DBG] Thread ThReception started
+2020-07-24 01:53:55.575 -04:00 [DBG] Starting ThTransmission Thread
+2020-07-24 01:53:55.577 -04:00 [DBG] Thread ThTransmission started
+2020-07-24 01:53:55.579 -04:00 [DBG] Registering Transmission.Reception_NewMessage to NewMessage event
+2020-07-24 01:53:55.581 -04:00 [INF] Finished the Initialization of the Application
+2020-07-24 01:53:55.583 -04:00 [INF] The server is running at Address 192.168.1.69:1 with Endpoint: 192.168.1.69:1

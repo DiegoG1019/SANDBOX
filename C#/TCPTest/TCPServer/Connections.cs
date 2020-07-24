@@ -10,7 +10,7 @@ namespace TCPTest.TCPServer
     public static class Connections
     {
         public static ConcurrentDictionary<string, Socket> Active { get; private set; }
-        public static byte MaxUsers = 3;
+        public static byte MaxUsers = 10;
 
         public static event ServerMessage NewHandshake;
         public static event ServerMessage Disconnection;
@@ -36,11 +36,18 @@ namespace TCPTest.TCPServer
                     if (
                            handshake.UserClientVersion.Minor <= ServerVersion.Minor
                         && handshake.UserClientVersion.Major == ServerVersion.Major
+                        && !(Utilities.StringContains(handshake.Username, Config.BannedCharacters))
+                        && !(Utilities.StringContains(handshake.Username, Config.BannedNames))
+                        && !(Active.ContainsKey(handshake.Username))
                     )
                     {
                         socket.ReceiveTimeout = Config.SocketReceiveTimeout;
                         socket.SendTimeout = Config.SocketSendTimeout;
                         Active.TryAdd(handshake.Username, socket);
+                    }
+                    else
+                    {
+                        socket.Disconnect(true);
                     }
                 }
             }

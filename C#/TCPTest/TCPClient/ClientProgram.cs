@@ -5,6 +5,8 @@ using System.Net.Sockets;
 using System.Runtime.InteropServices;
 using TCPTest.TCPShared;
 using Version = DiegoG.Utilities.Version;
+using System.Collections.Generic;
+using System.Threading;
 
 namespace TCPTest.TCPClient
 {
@@ -22,10 +24,11 @@ namespace TCPTest.TCPClient
         public const string ShortAppname = "DGChatServer";
         public const string CopyrightNotice = "Copyright © 2020 Diego Garcia";
 
-
         public delegate void IncomingMessage(Message msg);
+        public static event IncomingMessage NewOutboundMessage;
 
-        public static Socket Server;
+        public static string Username;
+
         public static class Directories
         {
             public static string DataOut = Path.Combine(ShortAppname);
@@ -94,6 +97,11 @@ namespace TCPTest.TCPClient
             Log.Information("Temp Directory: {0}", Path.GetFullPath(Directories.Temp));
             Log.Information("Working Directory: {0}", Path.GetFullPath(Directories.Working));
 
+            Log.Debug("Registering Transmission.NewOutboundMessage to Program.NewOutboundMessage event");
+            NewOutboundMessage += ClientTransmission.Transmission_NewOutboundMessage;
+            Log.Debug("Registering Program.NewInboundMessage to Reception.NewInboundMessage event");
+            ClientReception.NewInboundMessage += ClientProgram_NewInboundMessage;
+
             MainClient = new TcpClient()
             {
                 ReceiveBufferSize = Config.MessageBufferSize,
@@ -102,23 +110,56 @@ namespace TCPTest.TCPClient
                 SendTimeout = Config.SocketSendTimeout
             };
             MainClient.Connect(Config.Address, Config.Port);
-            Log.Debug("Started the Main Client and Connected to Server");
-            
+            Log.Debug("Started the Main Client and attempted to Connect to the Server");
+
+            Console.WriteLine("Enter an username:\n> ");
+            Username = Console.ReadLine();
+
+            var handshake = new UserSideHandshake(ClientVersion, Username);
+
+            var stream = MainClient.GetStream();
+            var serializedmsg = handshake.Serialize().ToArray();
+            stream.Write(serializedmsg, 0, Config.HandshakeBufferSize);
+
+            Log.Information($"The client is running at Address {Config.Address}:{Config.Port}");
+
+
             /*-----------------------------------------Running-----------------------------------------*/
 
 #if !DEBUG
             try
             {
 #endif
-                Log.Information($"The client is running at Address {Config.Address}:{Config.Port}");
-
+            while (true)
+            {
+                Thread.Sleep(Config.MainThreadSleepTime);
+                Console.WriteLine("Write a new message: ");
+                var msgstr = Console.ReadLine();
+                var newmsg = new ChatMessage(ClientVersion, msgstr, Username);
+            }
+                
 #if !DEBUG
             }
             catch (Exception e)
             {
-                Console.WriteLine("Error: " + e.StackTrace);
+                Log.Error($"Exception thrown: {e}");
             }
 #endif
+        }
+
+        private static void ClientProgram_NewInboundMessage(Message msg)
+        {
+            if(msg.MessageType == typeof(ChatMessage))
+            {
+                var cmsg = (ChatMessage)msg;
+                cmsg.ReceivedTime = DateTime.Now;
+                Console.WriteLine(
+                "----\n" +
+                $">Sender: {cmsg.Sender}: " +
+                $"\"{cmsg.Text}\"\n" +
+                $"Received at: {cmsg.ReceivedTime}"
+                );
+            }
         }
     }
 }

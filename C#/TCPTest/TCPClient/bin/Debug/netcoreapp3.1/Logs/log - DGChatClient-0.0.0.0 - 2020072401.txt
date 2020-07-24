@@ -1,0 +1,28 @@
+2020-07-24 01:51:27.574 -04:00 [DBG] Succesfully started logger with a mimum level of Debug
+2020-07-24 01:51:27.748 -04:00 [INF] Program Author: Diego Garcia
+2020-07-24 01:51:27.753 -04:00 [INF] Running DGChat - Server version: DGChatClient-0.0.0.0
+2020-07-24 01:51:27.755 -04:00 [INF] DataOut Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPClient\bin\Debug\netcoreapp3.1\DGChatServer
+2020-07-24 01:51:27.756 -04:00 [INF] Logging Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPClient\bin\Debug\netcoreapp3.1\Logs
+2020-07-24 01:51:27.758 -04:00 [INF] Temp Directory: C:\Users\Barbara Patricia\AppData\Local\Temp\
+2020-07-24 01:51:27.759 -04:00 [INF] Working Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPClient\bin\Debug\netcoreapp3.1
+2020-07-24 01:51:27.760 -04:00 [DBG] Registering Transmission.NewOutboundMessage to Program.NewOutboundMessage event
+2020-07-24 01:51:27.762 -04:00 [DBG] Registering Program.NewInboundMessage to Reception.NewInboundMessage event
+2020-07-24 01:53:02.340 -04:00 [DBG] Succesfully started logger with a mimum level of Debug
+2020-07-24 01:53:02.707 -04:00 [INF] Program Author: Diego Garcia
+2020-07-24 01:53:02.714 -04:00 [INF] Running DGChat - Server version: DGChatClient-0.0.0.0
+2020-07-24 01:53:02.728 -04:00 [INF] DataOut Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPClient\bin\Debug\netcoreapp3.1\DGChatServer
+2020-07-24 01:53:02.734 -04:00 [INF] Logging Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPClient\bin\Debug\netcoreapp3.1\Logs
+2020-07-24 01:53:02.736 -04:00 [INF] Temp Directory: C:\Users\Barbara Patricia\AppData\Local\Temp\
+2020-07-24 01:53:02.738 -04:00 [INF] Working Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPClient\bin\Debug\netcoreapp3.1
+2020-07-24 01:53:02.751 -04:00 [DBG] Registering Transmission.NewOutboundMessage to Program.NewOutboundMessage event
+2020-07-24 01:53:02.754 -04:00 [DBG] Registering Program.NewInboundMessage to Reception.NewInboundMessage event
+2020-07-24 01:54:04.716 -04:00 [DBG] Succesfully started logger with a mimum level of Debug
+2020-07-24 01:54:04.808 -04:00 [INF] Program Author: Diego Garcia
+2020-07-24 01:54:04.811 -04:00 [INF] Running DGChat - Server version: DGChatClient-0.0.0.0
+2020-07-24 01:54:04.813 -04:00 [INF] DataOut Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPClient\bin\Debug\netcoreapp3.1\DGChatServer
+2020-07-24 01:54:04.814 -04:00 [INF] Logging Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPClient\bin\Debug\netcoreapp3.1\Logs
+2020-07-24 01:54:04.814 -04:00 [INF] Temp Directory: C:\Users\Barbara Patricia\AppData\Local\Temp\
+2020-07-24 01:54:04.815 -04:00 [INF] Working Directory: C:\Users\Barbara Patricia\Documents\Workspace\Programming\SANDBOX\C#\TCPTest\TCPClient\bin\Debug\netcoreapp3.1
+2020-07-24 01:54:04.816 -04:00 [DBG] Registering Transmission.NewOutboundMessage to Program.NewOutboundMessage event
+2020-07-24 01:54:04.819 -04:00 [DBG] Registering Program.NewInboundMessage to Reception.NewInboundMessage event
+2020-07-24 01:54:04.875 -04:00 [DBG] Started the Main Client and attempted to Connect to the Server

@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading;
 using TCPTest.TCPShared;
+using static TCPTest.TCPClient.ClientProgram;
 
 namespace TCPTest.TCPClient
 {
@@ -20,44 +21,28 @@ namespace TCPTest.TCPClient
 
         public static Queue<Message> TransmissionQueue = new Queue<Message>();
 
-        private static readonly ThreadStart ths = new ThreadStart(Transmit);
-        private static readonly Slot<SendMessage> MessageRecipients = new Slot<SendMessage>();
-
-        public static void Transmit()
-        {
-            const int MaxAttempts = 3;
-            int attempts = 0;
-            var recipient = MessageRecipients.Take();
-            //var recsocket = Connections.Active[recipient.Recipient];
-            var msg = recipient.Message.Serialize().ToArray();
-            byte[] confirmationarray = new byte[Config.ConfirmationBufferSize];
-
-            SendMessage:;
-            recsocket.Send(msg);
-            recsocket.Receive(confirmationarray);
-            if (Confirmation.Deserialize(confirmationarray).ConfirmationCode != Confirmation.Code.ReceivedSuccesfully && attempts <= MaxAttempts)
-            {
-                attempts++;
-                goto SendMessage;
-            }
-        }
-
         public static void SendMessages()
         {
             while (true)
             {
                 Thread.Sleep(Config.MainThreadSleepTime);
-                var msg = TransmissionQueue.Dequeue();
-                foreach (string recipient in msg.Recipients)
+                
+                if(!(TransmissionQueue.Count > 0))
                 {
-                    MessageRecipients.Place(new SendMessage(recipient, msg));
-                    new Thread(ths).Start();
-                    Thread.Sleep(100);
+                    Thread.Sleep(Config.EmptyTransmissionQueueSleepTime);
+                    continue;
                 }
+
+                var msg = TransmissionQueue.Dequeue();
+
+                var stream = MainClient.GetStream();
+                var serializedmsg = msg.Serialize().ToArray();
+
+                stream.Write(serializedmsg, 0, Config.MessageBufferSize);
             }
         }
 
-        public static void Reception_NewMessage(Message msg)
+        public static void Transmission_NewOutboundMessage(Message msg)
         {
             TransmissionQueue.Enqueue(msg);
         }
