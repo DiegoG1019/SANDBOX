@@ -19,16 +19,16 @@ namespace prnt.sc_downloader
         public const long MaxSize = 10L * 1024L * 1024L * 1024L;
         //                         GB    MB     KB      B
 
-        public static readonly int ParallelizationIndex = Environment.ProcessorCount * 4;
-        public static readonly SemaphoreSlim ParallelizationSemaphore;
-        public static readonly Random Rand;
-        public static readonly HttpClient Http;
-        public static readonly HtmlWeb Html;
-        public static readonly char[] CharPool;
-        public static readonly int CharPoolEnd;
-        public static readonly string SavePath;
+        private static readonly int ParallelizationIndex = Environment.ProcessorCount * 4;
+        private static readonly SemaphoreSlim ParallelizationSemaphore;
+        private static readonly Random Rand;
+        private static readonly HttpClient Http;
+        private static readonly HtmlWeb Html;
+        private static readonly char[] CharPool;
+        private static readonly int CharPoolEnd;
+        private static readonly string SavePath;
 
-        public static DateTime CheckDirRefresh;
+        private static DateTime CheckDirRefresh;
         
         static Program()
         {
