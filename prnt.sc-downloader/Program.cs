@@ -17,7 +17,7 @@ namespace prnt.sc_downloader
         public const string BaseUrl = "https://prnt.sc/";
         public const string Except = "st.prntscr.com/2021/04/08/1538/img/0_173a7b_211be8ff.png";
         public const long MaxSize = 10L * 1024L * 1024L * 1024L;
-        //                         GB    MB     KB      B
+        //                           GB    MB     KB      B
 
         private static readonly int ParallelizationIndex = Environment.ProcessorCount * 4;
         private static readonly SemaphoreSlim ParallelizationSemaphore;
@@ -113,19 +113,19 @@ namespace prnt.sc_downloader
 
         public static async Task Fetch(string link)
         {
-            var htmldoc = await Html.LoadFromWebAsync(link);
-            string? url = htmldoc.DocumentNode.SelectSingleNode("/html/body/div[3]/div/img")?.GetAttributeValue<string>("src", null);
-            if (url is null or Except)
-                return;
-
-            var uri = new Uri(url);
-            string filename = uri.LocalPath.Replace("/", "");
-            Console.WriteLine($"Writing new file to {filename}");
-
             Stream? input = null;
             FileStream? fs = null;
             try
             {
+                var htmldoc = await Html.LoadFromWebAsync(link);
+                string? url = htmldoc.DocumentNode.SelectSingleNode("/html/body/div[3]/div/img")?.GetAttributeValue<string>("src", null);
+                if (url is null or Except)
+                    return;
+
+                var uri = new Uri(url);
+                string filename = uri.LocalPath.Replace("/", "");
+                Console.WriteLine($"Writing new file to {filename}");
+
                 fs = new(Path.Combine(SavePath, filename), FileMode.Create, FileAccess.Write, FileShare.None);
                 input = await Http.GetStreamAsync(uri);
                 await input.CopyToAsync(fs);
