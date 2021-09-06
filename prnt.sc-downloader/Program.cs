@@ -93,7 +93,10 @@ namespace prnt.sc_downloader
                 }
 
                 while (RemovalQueue.Count > 0)
+                {
                     RunningTasks.Remove(RemovalQueue.Dequeue());
+                    ParallelizationSemaphore.Release();
+                }
             }
         }
 
@@ -136,7 +139,6 @@ namespace prnt.sc_downloader
             {
                 input?.Dispose();
                 fs?.Dispose();
-                ParallelizationSemaphore.Release();
             }
         }
     }
