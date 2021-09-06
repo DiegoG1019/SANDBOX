@@ -34,3 +34,7 @@ RssFeedParser-Test/RssFeedParser-Test/obj/RssFeedParser-Test.csproj.nuget.g.prop
 RssFeedParser-Test/RssFeedParser-Test/obj/RssFeedParser-Test.csproj.nuget.g.targets
 RssFeedParser-Test/.vs/RssFeedParser-Test/v16/.suo
 RssFeedParser-Test/.vs/RssFeedParser-Test/DesignTimeBuild/.dtbcache.v2
+prnt.sc-downloader/obj/prnt.sc-downloader.csproj.nuget.g.targets
+*/obj/*
+*/bin/*
+*/.vs/*
